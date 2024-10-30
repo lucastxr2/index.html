@@ -12,7 +12,7 @@ var map = new mapboxgl.Map({
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1CRlmEj8VUmcUvQ4n1hB0yrkci9H4gMpFYWN1pZTasNQ/edit?gid=1773376140#gid=1773376140',
+        url: https://docs.google.com/spreadsheets/d/%7B1CRlmEj8VUmcUvQ4n1hB0yrkci9H4gMpFYWN1pZTasNQ%7D/gviz/tq?tqx=out:csv&sheet=Sheet1',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
